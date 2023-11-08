@@ -12,86 +12,95 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap" rel="stylesheet">
     <style>
         div.corpo{
-            height: 800px;
+            height: 1000px;
             width: auto;
             border: none;
             margin: none;
-            background: #ffffff;
             display: flex;
-            background-image: linear-gradient(#076e8d,#f1f1f1);
+            background-color: transparent;
+            overflow-x: hidden;
         }
 
-        div#serviços{
+
+        div#inicio{
            background-image: url(assets/reuniao.jpg);
            background-size: cover;
            background-repeat: no-repeat;
            background-position-y: 25%;
-           height: 1200px;
+           height: 1000px;
         }
 
-        footer{
+        div#rodape{
             text-align: center;
-            height: 200px;
+            height: 100px;
+            width: auto;
         }
+
+        section.quadro{
+            background-image: linear-gradient(#071c4b,#f1f1f1);
+        }
+        
+
 
 
     </style>
 </head>
 <body>
-    <header>
-        <div class="topbar">
-            <div class="logo">
-                <img src="assets/logologo.png" width="150", height="auto">
-            </div>
-            <div class="menutop">
-                <nav class="menu">
-                    <a href="index.html">Home</a>
-                    <a href="servicos.html">Serviços</a>
-                    <a href="sobre.html">Sobre Nós</a>
-                    <a href="#">Contato</a>
-                </nav>
-            </div>
-    </header>
+    <div>
+        <header>
+            <div class="topbar">
+                <div class="logo">
+                    <a href="index.html"><img src="assets/logologo.png" width="150", height="auto"></a>
+                </div>
+                <div class="menutop">
+                    <nav class="menu">
+                        <a href="index.html">Home</a>
+                        <a href="servicos.html">Serviços</a>
+                        <a href="sobre.html">Sobre Nós</a>
+                        <a href="#">Contato</a>
+                    </nav>
+                </div>
+        </header>
+    </div>
     
-    <section class="pagina" id="p1">
-        <div class="corpo" id="inicio">
-
-        </div>
+    <section class="foto">
+        <div class="pagina" id="inicio">
     </section>
 
-    <section class="pagina" id="p2">
-        <div class="corpo" id="serviços">
+    <section class="quadro"> 
 
-        </div>
-    </section>
-    
-
-    <section class="pagina" id="p3">
-        <div class="corpo" id="sobrenos">
-            <div class="divisao">
-                <div class="botaoserviços">
-                    <div class="botaoserviços1" id="bts1">
-                        <a href="#">Gap<br>Assessment</a>
-                    </div>
-                    <div class="botaoserviços2" id="bts2">
-                        <a href="#">QA & QC<br>-<br>Conformidade Regulatória<br>Sistema de Gestão de Qualidade</a>
-                    </div>
-                    <div class="botaoserviços3" id="bts3">
-                        <a href="#">Planejamento<br>Estratégico</a>
-                    </div>
-                    <div class="botaoserviços4" id="bts4">
-                        <a href="#">Mapeamento dos Custos<br>da Não-Qualidade</a>
-                    </div>
-                    <div class="botaoserviços5" id="bts5">
-                        <a href="#">Gestão de Fornecedores<br>End-To-End</a>
+    </div>
+        <div class="pagina">
+            <div class="corpo" id="serviços">
+                <div class="divisao">
+                    <div class="botaoserviços">
+                        <div class="botaoserviços1" id="bts1">
+                            <a href="#">Gap<br>Assessment</a>
+                        </div>
+                        <div class="botaoserviços2" id="bts2">
+                            <a href="#">QA & QC<br>-<br>Conformidade Regulatória<br>Sistema de Gestão de Qualidade</a>
+                        </div>
+                        <div class="botaoserviços3" id="bts3">
+                            <a href="#">Planejamento<br>Estratégico</a>
+                        </div>
+                        <div class="botaoserviços4" id="bts4">
+                            <a href="#">Mapeamento dos Custos<br>da Não-Qualidade</a>
+                        </div>
+                        <div class="botaoserviços5" id="bts5">
+                            <a href="#">Gestão de Fornecedores<br>End-To-End</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-    </section>
+        </div>
+
+        <div class="pagina" id="sobrenos">
+            
+        </div>
+    
 
 
-    <section class="pagina" id="p4">
-        <div class="contato">
+
+        <div class="pagina" id="contato">
             <div class="faletxt">
                 <h1>FALE<br>CONOSCO!</h1>              
             </div>
@@ -106,12 +115,10 @@
                 </form>
             </div>
         </div>
-    </section>
+    
 
 
-    <footer class="pagina" id="p5">
-        <div class="rodape">
-            <div>
+        <div class="pagina" id="rodape">
                 <h2>
                     (11) 99999-9999 | (11) 3999-9999<br>
                 </h2>
@@ -126,7 +133,7 @@
             <a href="https://www.instagram.com/pedromagas"><img src="assets/instagram.png"></a>
             <a href="https://www.linkedin.com/in/julianamalves/"><img src="assets/linkedin.png"></a>
         </div>
-    </footer>
+    </section>
 
 
 </body>

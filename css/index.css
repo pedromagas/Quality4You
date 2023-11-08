@@ -60,7 +60,7 @@ header{
 
 .menutop{
     width: 80%;
-    padding-top: 45px;
+    padding-top: 25px;
     height: auto;
     text-align: right;
     position: relative;
@@ -91,7 +91,7 @@ header{
 
 
 .botaoserviços1{
-    background-color: #071c4b;
+    background-color: #fafafc;
     color: #ffffff;
     border: 1px solid black;
     font-weight: 400;
@@ -102,7 +102,7 @@ header{
 }
 
 .botaoserviços2{
-    background-color: #071c4b;
+    background-color: #272727;
     color: #ffffff;
     border: 1px solid black;
     font-weight: 400;
@@ -113,7 +113,7 @@ header{
 }
 
 .botaoserviços3{
-    background-color: #071c4b;
+    background-color: #fafafc;
     color: #ffffff;
     border: 1px solid black;
     font-weight: 400;
@@ -124,7 +124,7 @@ header{
 }
 
 .botaoserviços4{
-    background-color: #071c4b;
+    background-color: #272727;
     color: #ffffff;
     border: 1px solid black;
     font-weight: 400;
@@ -135,7 +135,7 @@ header{
 }
 
 .botaoserviços5{
-    background-color: #071c4b;
+    background-color: #fafafc;
     color: #ffffff;
     border: 1px solid black;
     font-weight: 400;
@@ -151,14 +151,14 @@ header{
     display: flex;
     font-size: 40px;
     float: left;
-    padding-left: 27%;
+    padding-left: 10%;
     text-align: right;
 }
 
 .formulario{
     float: right;
     display: flex;
-    padding-right: 27%;
+    padding-right: 10%;
 }
 
 input[type=text],[type=email]{
@@ -192,7 +192,7 @@ input[type=assunto]{
     border: 1px solid black;
     padding-left: 5px;
     padding-bottom: 30px;
-    margin: 0,0,0,0;
+    margin: 0, 0, 0, 0;
 }
 
 
@@ -271,3 +271,6 @@ h3{
     flex-direction: row;
 }
 
+.fotoreuniao{
+    padding-left: 300px;
+}
