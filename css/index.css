@@ -139,8 +139,8 @@ input[textarea]{
 
 
 button{
-    background-color: white;
-    color: #071c4b;
+    background-color: #071c4b;
+    color: white;
     border: 1px solid black;
     display: inline-block;
     font-size: 16px;
@@ -240,38 +240,39 @@ button{
 
 .quemsomos{
     display: flex;
-    padding-top: 10%;
+    padding-top: 300px;
 }
 
 .quemsomos h1{
     color: white;
     font-weight: 800;
     font-size: 50px;
-    padding-right: 15%;
+    padding-left: 15%;
 }
 
 .quemsomos p{
     color: white;
-    font-weight: 800;
+    font-weight: 400;
     padding-left: 15%;
 }
 
 .nossosserviços a{
+    color: white;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
     display: flex;
     flex-direction: column;
-    color: white;
-    padding-left: 15%;
 }
 
 .nossosserviços h1{
     color: white;
     font-weight: 800;
     font-size: 50px;
-    float: left;
-    padding-left: 15%;
-    text-align: right;
+    padding-left: 25%;
+    text-align: left;
 }
 
 .nossosserviços{
-    padding-top: 10%;
+    padding-top: 0px;
+    display: inline-block;
 }
