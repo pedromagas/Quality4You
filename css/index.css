@@ -76,96 +76,24 @@ header{
     flex-direction: row;
 }
 
-.botaoserviços{
-    position: absolute;
+.pagina#serviços h1{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    text-align: center;
-    column-gap: 10px;
-    justify-content: center;
-    justify-self: center;
-    justify-items: center;
-    text-decoration: none;
+    justify-content: left;
+    align-items: right;
+    font-weight: 800;
+    font-size: 80px;
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
 }
 
-.botaoserviços a{
-    color: black;
-    text-decoration: none;
+
+.textserviços a{
+    color: #000000;
     font-family: 'Roboto Slab', serif;
     font-weight: 800;
-}
-
-
-.botaoserviços1{
-    background-color: #56ae95;
-    color: #ffffff;
-    border: 1px solid black;
-    font-weight: 400;
-    transform: translateX(-50%) translateY(-0%);
-    width: 200px;
-    height: 150px;
-    text-align: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
 }
-
-.botaoserviços2{
-    background-color: #56ae95;
-    color: #ffffff;
-    border: 1px solid black;
-    font-weight: 400;
-    transform: translateX(-50%) translateY(-0%);
-    width: 200px;
-    height: 150px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-}
-
-.botaoserviços3{
-    background-color: #56ae95;
-    color: #ffffff;
-    border: 1px solid black;
-    font-weight: 400;
-    transform: translateX(-50%) translateY(-0%);
-    width: 200px;
-    height: 150px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
-
-.botaoserviços4{
-    background-color: #56ae95;
-    color: #ffffff;
-    border: 1px solid black;
-    font-weight: 400;
-    transform: translateX(-50%) translateY(-0%);
-    width: 200px;
-    height: 150px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.botaoserviços5{
-    background-color: #56ae95;
-    color: #ffffff;
-    border: 1px solid black;
-    font-weight: 400;
-    transform: translateX(-50%) translateY(-0%);
-    width: 200px;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .faletxt{
     margin: 0, 0, 0, 0;
@@ -174,6 +102,7 @@ header{
     float: left;
     padding-left: 10%;
     text-align: right;
+    color: white;
 }
 
 .formulario{
@@ -229,8 +158,8 @@ input[textarea]{
 
 
 button{
-    background-color: #071c4b;
-    color: #ffffff;
+    background-color: white;
+    color: #071c4b;
     border: 1px solid black;
     display: inline-block;
     font-size: 16px;
@@ -243,70 +172,41 @@ button{
     cursor: pointer;
 }
 
-h2{
+
+.contato h2{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
 }
 
-h3{
+.contato h3{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
+    font-style: italic;
 }
 
-.footer{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #738677;
-    background-color: rgb(#071c4b);
-    font-size: 12px;
-    position: relative;
-}
-
-.social-media{
-    position: relative;
+.redes{
+    position: absolute;
     background-color: transparent;
     justify-self: center;
-}
-
-.topbar.logo{
-    float: left;
-}
-
-.topbar.menu{
-    float: right;
-}
-
-.divisao{
-    position: absolute;
-    width: 100%;
-    display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding-left: 15%;
-
 }
-
-.contato#formulario{
-    display: flex;
-    flex-direction: row;
-}
-
-section#inicio{
-    background-image: url(assets/reuniao.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: 25%;
-    height: 1000px;
- }
 
 .textserviços{
-    position: absolute;
+    position: relative;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
     padding-left: 15%;
+}
+
+.nossosserviços{
+    position: relative;
+    padding-left: 15%;
+    color: white;
 }
 
 .grid-item1{
@@ -371,4 +271,14 @@ section#inicio{
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
+}
+
+.quemsomos{
+    display: flex;
+}
+
+.quemsomos h1{
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
 }
