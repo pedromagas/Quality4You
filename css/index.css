@@ -22,18 +22,18 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: #071c4b;
+    background: #ffffff;
     padding: 28px 12%;
     transition: all .50s ease;
 }
 
 .logo{
-    padding-top: 20px;
+    padding-top: 0px;
 }
 
 
 header{
-    position: absolute;
+    position: relative;
     width: 100%;
     top: 0;
     right: 0;
@@ -69,9 +69,9 @@ header{
 }
 
 .menu a{
-    color:#e6dcdc;
+    color:#071c4b;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 800;
     margin-right: 25px;
     flex-direction: row;
 }
@@ -81,15 +81,17 @@ header{
     display: flex;
     font-size: 40px;
     float: left;
-    padding-left: 10%;
+    padding-left: 20%;
     text-align: right;
     color: white;
+    padding-top: 150px;
 }
 
 .formulario{
     float: right;
     display: flex;
-    padding-right: 10%;
+    padding-right: 20%;
+    padding-top: 150px;
 }
 
 input[type=text],[type=email]{
@@ -104,6 +106,7 @@ input[type=text],[type=email]{
 
 
 input[type=tel]{
+    display: inline-flex;
     float: left;
     width: 220px;
     height: 60px;
@@ -111,19 +114,18 @@ input[type=tel]{
     border: 1px solid black;
     padding-left: 5px;
     padding-bottom: 30px;
-    margin: 0, 0, 0, 0;
 }
 
 
 input[type=assunto]{
+    display: inline-flex;
     float: right;
-    width: 310px;
+    width: 300px;
     height: 60px;
     border-radius: 4px;
     border: 1px solid black;
     padding-left: 5px;
     padding-bottom: 30px;
-    margin: 0, 0, 0, 0;
 }
 
 
@@ -153,6 +155,12 @@ button{
     cursor: pointer;
 }
 
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .contato h2{
     text-align: center;
@@ -167,112 +175,60 @@ button{
     font-style: italic;
 }
 
-.redes{
-    position: absolute;
+.contato a{
     background-color: transparent;
-    justify-self: center;
-    align-items: center;
-}
-
-.grid-item1{
-    background-color: #80a9c0;
-    color: #000000;
-    border: 1px solid black;
-    font-weight: 800;
-    width: 200px;
-    height: 500px;
-}
-
-.grid-item2{
-    background-color: #80a9c0;
-    color: #000000;
-    border: 1px solid black;
-    font-weight: 800;
-    width: 200px;
-    height: 500px;
-}
-
-.grid-item3{
-    background-color: #80a9c0;
-    color: #000000;
-    border: 1px solid black;
-    font-weight: 800;
-    width: 200px;
-    height: 500px;
-}
-
-.grid-item4{
-    background-color: #80a9c0;
-    color: #000000;
-    border: 1px solid black;
-    font-weight: 800;
-    width: 200px;
-    height: 500px;
-}
-
-.grid-item5{
-    background-color: #56ae95;
-    color: #000000;
-    border: 1px solid black;
-    font-weight: 800;
-    width: 200px;
-    height: 500px;
-}
-
-.grid{
-    position: absolute;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 50%;
-    margin: 0, 0, 0, 0;
-    column-gap: 15px;
-}
-
-.block{
-    column-gap: 15px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
 }
 
 .quemsomos{
     display: flex;
-    padding-top: 300px;
+    padding-top: 200px;
 }
 
 .quemsomos h1{
     color: white;
     font-weight: 800;
-    font-size: 50px;
-    padding-left: 15%;
+    font-size: 80px;
+    padding-left: 10%;
 }
 
 .quemsomos p{
     color: white;
     font-weight: 400;
     padding-left: 15%;
+    line-height: 30px;
+    text-align: center;
 }
 
 .nossosserviços a{
     color: white;
     font-weight: 400;
-    font-family: 'Roboto Slab', serif;
     display: flex;
     flex-direction: column;
+    padding-left: 10%;
+    padding-top: 10px;
 }
 
 .nossosserviços h1{
     color: white;
     font-weight: 800;
-    font-size: 50px;
-    padding-left: 25%;
+    font-size: 80px;
+    padding-left: 15%;
     text-align: left;
+    float: left;
 }
 
 .nossosserviços{
-    padding-top: 0px;
-    display: inline-block;
+    padding-top: 150px;
+}
+
+botoesserviços{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
