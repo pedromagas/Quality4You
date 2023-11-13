@@ -69,11 +69,12 @@ header{
 }
 
 .menu a{
-    color:#071c4b;
+    color:#163E3D;
     text-decoration: none;
     font-weight: 800;
     margin-right: 25px;
     flex-direction: row;
+    font-size: 20px;
 }
 
 .faletxt{
