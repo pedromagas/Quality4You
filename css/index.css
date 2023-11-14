@@ -80,7 +80,7 @@ header{
 .faletxt{
     margin: 0, 0, 0, 0;
     display: flex;
-    font-size: 40px;
+    font-size: 50px;
     float: left;
     text-align: right;
     color: white;
@@ -89,7 +89,7 @@ header{
 .formulario{
     float: right;
     display: flex;
-    padding-top: 200px;
+    padding-top: 180px;
     padding-left: 100px;
 }
 
@@ -169,6 +169,7 @@ button{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
+    color: #ffffff;
 }
 
 .contato h3{
@@ -176,6 +177,7 @@ button{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-style: italic;
+    color: #ffffff;
 }
 
 .contato a{
@@ -235,12 +237,15 @@ botoesserviços{
 
 footer{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #071c4b;
 }
 
 .pagina{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 100px;
 }

@@ -1,46 +1,75 @@
-<html>
-    <head>
-        <title>Q.4.Y Assessoria</title>
-        <link href="css/sobre.css" rel="stylesheet" />
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    </head>
-    <body style="background-image: linear-gradient(rgba(255, 255, 255, 0.897), rgb(0, 0, 0));">
-        <header style="position: sticky; top: 0; z-index: 999;">
-            <div class="center">
-                <div class="logo"><img src="assets/logologo.png" width="250", height="auto"/></div>
-                <div class="menu">
-                    <a href="index.html">Home</a>
-                    <a href="#">Serviços</a>
-                    <a href="sobre.html">Sobre Nós</a>
-                    <a href="#">Contato</a>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>Quality 4 You - Serviços</title>
+    <link href="css/servicos.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/vetor q4y.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap" rel="stylesheet">
+    <style>
+        div.pagina{
+            height: 800px;
+            background-color: transparent;
+        }
+
+        section.quadro{
+            background: linear-gradient(#071c4b,#08a4cb)
+        }
+    </style>
+    
+</head>
+
+
+
+
+<body>
+    <div>
+        <header>
+            <div class="topbar">
+                <div class="logo">
+                    <a href="index.html"><img src="assets/vetor q4y.png" width="150", height="auto"></a>
                 </div>
-                <br><br>
-                <div class="foto"> <img src="assets/reuniao.jpg" width="700" height="auto"></div>
-                <div class="texto">
-                    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> 
-                        Curabitur consectetur, felis non auctor sollicitudin,<br> 
-                        orci lorem vulputate arcu, ac hendrerit ligula neque quis metus.<br> 
-                        Mauris aliquet iaculis quam, nec lobortis dolor euismod at. </h1>
-                </div>       
+                <div class="menutop">
+                    <nav class="menu">
+                        <a href="index.html">Home</a>
+                        <a href="servicos.html">Serviços</a>
+                        <a href="sobre.html">Sobre Nós</a>
+                        <a href="contato.html">Contato</a>
+                    </nav>
+                </div>
         </header>
-        <br><br>
-        <div class="container-form">
-            <div class="textform">
-            <h1 style="font-size: 34px; color: black;">AGENDE <br>SUA VISITA</h1>
-        </div>
-    <form class="form" action="submit.php" method="post">
-        <input type="text" class="inputNome" placeholder="Nome"style="margin-top: 10px;"  id="nome" name="nome" required><br>
-        <input type="tel" class="inputtel" placeholder="Telefone" style="margin-top: 10px;" id="telefone" name="telefone" required><br>
-        <input type="email" class="inputtype" placeholder="Email" style="margin-top: 10px;" id="email" name="email" required><br>
-        <input type="assunto" class="inputassunto" placeholder="Assunto" style="margin-top: 10px;" id="assunto" name="assunto" required><br>
-        <input textarea class="textao" placeholder="Mensagem" style="margin-top: 10px;" id="mensagem" name="mensagem" required></textarea><br><br>
-        <div class="button">
-            <button type="button">Enviar!</button>
-        </div>
-    </form>
-    </body>
-</html>
+    </div> 
+    
+    <section class="quadro">
+        <div class="pagina">
+            <div class="serviços">
 
+            </div>
+        </div>
+        <div class="pagina">
 
-<div style="width: 100%"<iframe width="300" height="205" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=300&amp;height=205&amp;hl=en&amp;q=Avenida%209%20de%20Julho,%202023%20Jundia%C3%AD+(Q4Y%20Assessoria)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Population Estimator map</a></iframe></div>
+        </div>
+
+    </section>
+    <footer class="rodape">
+        <div class="contato">
+            <h2>
+                (11) 99999-9999 | (11) 3999-9999<br>
+            </h2>
+            <br>
+            <h3>
+                email: contato@q4y.com<br>
+                Rua Fulano de Tal, 123 - Brasilia DF<br>
+                Segunda a Sexta, das 08h às 12h e das 14h às 17h30min
+            </h3>
+            </div>
+        <div class="redes">
+            <a href="https://www.twitter.com/_pdros"><img src="assets/twitter.png"></a>
+            <a href="https://www.instagram.com/pedromagas"><img src="assets/instagram.png"></a>
+            <a href="https://www.linkedin.com/company/quality-4-you-assessoria-e-consultoria/"><img src="assets/linkedin.png"></a>
+        </div>
+    </footer>
