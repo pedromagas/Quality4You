@@ -82,17 +82,15 @@ header{
     display: flex;
     font-size: 40px;
     float: left;
-    padding-left: 20%;
     text-align: right;
     color: white;
-    padding-top: 150px;
 }
 
 .formulario{
     float: right;
     display: flex;
-    padding-right: 20%;
-    padding-top: 150px;
+    padding-top: 200px;
+    padding-left: 100px;
 }
 
 input[type=text],[type=email]{
@@ -103,6 +101,7 @@ input[type=text],[type=email]{
     padding-left: 5px;
     border: 1px solid black;
     margin-bottom: 0px;
+    font-size: 18px;
 }
 
 
@@ -115,18 +114,20 @@ input[type=tel]{
     border: 1px solid black;
     padding-left: 5px;
     padding-bottom: 30px;
+    font-size: 18px;
 }
 
 
 input[type=assunto]{
     display: inline-flex;
     float: right;
-    width: 300px;
+    width: 320px;
     height: 60px;
     border-radius: 4px;
     border: 1px solid black;
     padding-left: 5px;
     padding-bottom: 30px;
+    font-size: 18px;
 }
 
 
@@ -138,6 +139,7 @@ input[textarea]{
     padding-bottom: 50px;
     padding-left: 5px;
     border: 1px solid black;
+    font-size: 18px;
 }
 
 
@@ -185,6 +187,7 @@ button{
 .quemsomos{
     display: flex;
     padding-top: 200px;
+    padding-right: 100px;
 }
 
 .quemsomos h1{
@@ -197,9 +200,9 @@ button{
 .quemsomos p{
     color: white;
     font-weight: 400;
-    padding-left: 15%;
-    line-height: 30px;
-    text-align: center;
+    line-height: 25px;
+    text-align: right;
+    width: 700px;
 }
 
 .nossosserviços a{
@@ -207,21 +210,23 @@ button{
     font-weight: 400;
     display: flex;
     flex-direction: column;
-    padding-left: 10%;
     padding-top: 10px;
+    padding-left: 15%;
 }
 
 .nossosserviços h1{
     color: white;
     font-weight: 800;
     font-size: 80px;
-    padding-left: 15%;
     text-align: left;
     float: left;
 }
 
 .nossosserviços{
-    padding-top: 150px;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 botoesserviços{
@@ -232,4 +237,10 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.pagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
