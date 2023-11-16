@@ -77,20 +77,23 @@ header{
     font-size: 20px;
 }
 
-.faletxt{
-    margin: 0, 0, 0, 0;
+.form-pagina{
     display: flex;
-    font-size: 50px;
-    float: left;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+
+.faletxt{
     text-align: right;
-    color: white;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
 }
 
 .formulario{
-    float: right;
-    display: flex;
-    padding-top: 180px;
-    padding-left: 100px;
+    padding-left: 15%;
 }
 
 input[type=text],[type=email]{
@@ -188,23 +191,35 @@ button{
 
 .quemsomos{
     display: flex;
-    padding-top: 200px;
-    padding-right: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
-.quemsomos h1{
-    color: white;
-    font-weight: 800;
-    font-size: 80px;
-    padding-left: 10%;
+.txtsomos{
+    text-align: left;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    padding-left: 15%;
 }
 
-.quemsomos p{
+.paragrafo-somos{
     color: white;
     font-weight: 400;
-    line-height: 25px;
     text-align: right;
-    width: 700px;
+    text-wrap: wrap;
+    word-wrap: break-word;
+    width: 600px;
+    line-height: 20px;
+}
+
+.txtserviços{
+    text-align: right;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
 }
 
 .nossosserviços a{
@@ -213,16 +228,9 @@ button{
     display: flex;
     flex-direction: column;
     padding-top: 10px;
-    padding-left: 15%;
+    padding-left: 30%;
 }
 
-.nossosserviços h1{
-    color: white;
-    font-weight: 800;
-    font-size: 80px;
-    text-align: left;
-    float: left;
-}
 
 .nossosserviços{
     padding-top: 200px;
@@ -252,4 +260,22 @@ footer{
 
 .redes{
     margin: 20px;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #071c4b;
+}
+
+.imagem{
+
+}
+
+div.bloco{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
