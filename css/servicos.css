@@ -112,3 +112,7 @@ footer{
     display: flex;
     flex-direction: row;
 }
+
+.redes{
+    margin: 20px;
+}
