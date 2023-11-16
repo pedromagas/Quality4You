@@ -6,12 +6,12 @@
     content="width=device-width, initial-scale=1.0">
     <title>Quality 4 You - Sobre Nós</title>
     <link href="css/sobre.css" rel="stylesheet">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/vetor q4y.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/vetor q4y novo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400&display=swap" rel="stylesheet">
     <style>
-        div.pagina{
+        div.bloco{
             height: 800px;
             background-color: transparent;
         }
@@ -45,13 +45,22 @@
     </div> 
     
     <section class="quadro">
-        <div class="pagina">
-            <div class="serviços">
-
+        <div class="bloco">
+            <div class="form-pagina">
+                <div class="faletxt">
+                    <h1>FALE<br>CONOSCO!</h1>            
+                </div>
+                <div class="formulario">
+                    <form class="form" action="https://formspree.io/f/xnqkyjpa" method="post">
+                        <input type="text" name="inputNome" placeholder="Nome" style="margin-top: 10px;" id="nome" required><br>
+                        <input type="email" name="inputtype" placeholder="Email" style="margin-top: 10px;" id="email" required><br>
+                        <input type="tel" name="inputtel" placeholder="Telefone" style="margin-top: 10px;" id="telefone" required><br>
+                        <input type="assunto" name="inputassunto" placeholder="Assunto" style="margin-top: -10px;" id="assunto" required><br>
+                        <input textarea name="textao" placeholder="Mensagem" style="margin-top: 10px;" id="mensagem" required></textarea><br><br>
+                        <button type="submit">Enviar!</button>
+                    </form>
+                </div>
             </div>
-        </div>
-        <div class="pagina">
-
         </div>
 
     </section>

@@ -84,6 +84,7 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: #071c4b;
+    height: 300px;
 }
 
 .contato{
@@ -116,4 +117,94 @@ footer{
 
 .redes{
     margin: 20px;
+}
+
+.bloco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.form-pagina{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.faletxt{
+    text-align: right;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+.formulario{
+    padding-left: 15%;
+}
+
+input[type=text],[type=email]{
+    width: 550px;
+    height: 60px;
+    border-radius: 4px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    border: 1px solid black;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+
+input[type=tel]{
+    display: inline-flex;
+    float: left;
+    width: 220px;
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+
+input[type=assunto]{
+    display: inline-flex;
+    float: right;
+    width: 320px;
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+
+input[textarea]{
+    width: 550px;
+    height: 80px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    padding-left: 5px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+
+button{
+    background-color: #071c4b;
+    color: white;
+    border: 1px solid black;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    width: 550px;
+    cursor: pointer;
 }

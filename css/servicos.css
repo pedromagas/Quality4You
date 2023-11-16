@@ -84,6 +84,7 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: #071c4b;
+    height: 300px;
 }
 .contato{
     display: flex;
