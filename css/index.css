@@ -80,8 +80,8 @@ header{
 form-pagina{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-self: center;
+    justify-content: space-around;
+    align-items: space-around;
 }
 
 .faletxt{
@@ -95,7 +95,7 @@ form-pagina{
 
 .formulario{
     display: flex;
-    padding-left: 15%;
+
 }
 
 input[type=text],[type=email]{
