@@ -77,7 +77,7 @@ header{
     font-size: 20px;
 }
 
-.form-pagina{
+form-pagina{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -85,6 +85,7 @@ header{
 }
 
 .faletxt{
+    display: flex;
     text-align: right;
     color: #ffffff;
     font-size: 50px;
@@ -93,6 +94,7 @@ header{
 }
 
 .formulario{
+    display: flex;
     padding-left: 15%;
 }
 
@@ -264,14 +266,27 @@ footer{
 
 .foto{
     display: flex;
+    width: fit-content;
     justify-content: center;
     align-items: center;
-    background-color: #071c4b
+    background-color: #071c4b;
+    background-size: 100% auto;
 }
 
-.imagem{
-
+.texto-imagem{
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    color: #071c4b;
+    opacity: 0;
+    transition: opacity .2s linear;
+    background-color: rgba(0, 0, 0, 7);
 }
+
+foto: hover . .texto-imagem{
+    opacity: 1;
+}
+
 
 div.bloco{
     display: flex;
