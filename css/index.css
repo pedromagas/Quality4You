@@ -12,6 +12,12 @@ html,body{
     width: auto;
 }
 
+div.bloco{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 .topbar{
     position: absolute;
@@ -77,11 +83,24 @@ header{
     font-size: 20px;
 }
 
-form-pagina{
+.texto-imagem{
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    color: #071c4b;
+    opacity: 1;
+    transition: opacity .2s linear;
+    background-color: rgba(0, 0, 0, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-pagina{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: space-around;
+    justify-content: center;
+    align-items: start;
 }
 
 .faletxt{
@@ -91,10 +110,12 @@ form-pagina{
     font-size: 50px;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
 .formulario{
     display: flex;
+    padding-left: 15%;
 
 }
 
@@ -204,6 +225,7 @@ button{
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     padding-left: 15%;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
 .paragrafo-somos{
@@ -222,6 +244,7 @@ button{
     font-size: 50px;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
 .nossosserviços a{
@@ -273,24 +296,7 @@ footer{
     background-size: 100% auto;
 }
 
-.texto-imagem{
-    padding: 20px;
-    font-family: 'Roboto Slab', serif;
-    text-align: center;
-    color: #071c4b;
-    opacity: 0;
-    transition: opacity .2s linear;
-    background-color: rgba(0, 0, 0, 7);
-}
-
-foto: hover . .texto-imagem{
-    opacity: 1;
-}
 
 
-div.bloco{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
+
+
