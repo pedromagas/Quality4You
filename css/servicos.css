@@ -89,6 +89,7 @@ header{
     justify-content: center;
     align-items: center;
     max-width: 800px;
+    margin: 20px;
 }
 
 .txt-serviços h1{
