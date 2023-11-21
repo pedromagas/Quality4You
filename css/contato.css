@@ -118,34 +118,41 @@ footer{
     margin: 20px;
 }
 
-div.bloco{
+.bloco{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    padding-top: 150px;
 }
 
 .form-pagina{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    margin: 20px;
 }
 
 .faletxt{
-    text-align: right;
+    text-align: start;
     color: #ffffff;
     font-size: 50px;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
+    padding-top: 200px;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .formulario{
-    padding-left: 15%;
+    max-width: 800px;
+    text-align: start;
+    color: #ffffff;
+    margin: 50px;
 }
 
 input[type=text],[type=email]{
-    width: 500px;
+    width: 550px;
     height: 60px;
     border-radius: 4px;
     padding-bottom: 30px;
@@ -159,7 +166,7 @@ input[type=text],[type=email]{
 input[type=tel]{
     display: inline-flex;
     float: left;
-    width: 200px;
+    width: 220px;
     height: 60px;
     border-radius: 4px;
     border: 1px solid black;
@@ -172,7 +179,7 @@ input[type=tel]{
 input[type=assunto]{
     display: inline-flex;
     float: right;
-    width: 280px;
+    width: 320px;
     height: 60px;
     border-radius: 4px;
     border: 1px solid black;
@@ -183,7 +190,7 @@ input[type=assunto]{
 
 
 input[textarea]{
-    width: 500px;
+    width: 550px;
     height: 80px;
     border-radius: 4px;
     box-sizing: border-box;
@@ -205,6 +212,6 @@ button{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     position: relative;
-    width: 500px;
+    width: 550px;
     cursor: pointer;
 }
