@@ -122,6 +122,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 800px;
 }
 
 .form-pagina{
@@ -145,7 +146,7 @@ footer{
 }
 
 .formulario{
-    max-width: 800px;
+    max-width: fit-content;
     text-align: start;
     color: #ffffff;
     margin: 50px;
