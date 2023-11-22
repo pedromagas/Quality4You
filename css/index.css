@@ -101,7 +101,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: start;
+    align-items: center;
 }
 
 .faletxt{
@@ -215,6 +215,7 @@ button{
 
 .quemsomos{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
