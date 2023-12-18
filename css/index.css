@@ -29,7 +29,7 @@ div.bloco{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: #ffffff;
+    background: floralwhite;
     padding: 28px 12%;
     transition: all .50s ease;
 }
@@ -107,16 +107,16 @@ form-pagina{
 
 .form-pagina{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     max-width: 800px;
 }
 .faletxt{
     display: flex;
     justify-content: start;
-    text-align: right;
-    color: #ffffff;
+    text-align: left;
+    color: floralwhite;
     font-size: 50px;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
@@ -127,6 +127,7 @@ form-pagina{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 100px;
 }
 
 input[type=text],[type=email]{
@@ -180,7 +181,7 @@ input[textarea]{
 
 button{
     background-color: #022221;
-    color: white;
+    color: floralwhite;
     border: 1px solid black;
     display: inline-block;
     font-size: 16px;
@@ -204,7 +205,7 @@ button{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
-    color: #ffffff;
+    color: floralwhite;
 }
 
 .contato h3{
@@ -212,7 +213,7 @@ button{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-style: italic;
-    color: #ffffff;
+    color: floralwhite;
 }
 
 .contato a{
@@ -223,7 +224,7 @@ button{
 
 .quemsomos{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 800px;
@@ -231,48 +232,55 @@ button{
 
 .txtsomos{
     text-align: left;
-    color: #ffffff;
+    color: floralwhite;
     font-size: 50px;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
-    padding-left: 15%;
     text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
 .paragrafo-somos{
-    color: white;
+    color: floralwhite;
     font-weight: 400;
-    text-align: right;
+    text-align: left;
     text-wrap: wrap;
     word-wrap: break-word;
-    width: 600px;
-    line-height: 20px;
+    max-width: 600px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 100px;
 }
 
 .txtserviços{
-    text-align: right;
-    color: #ffffff;
+    text-align: left;
+    color: floralwhite;
     font-size: 50px;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: left;
 }
 
 .nossosserviços a{
-    color: white;
+    color: floralwhite;
     font-weight: 400;
     display: flex;
     flex-direction: column;
-    padding-top: 10px;
-    padding-left: 30%;
+    font-size: 20px;
 }
 
 
 .nossosserviços{
     max-width: 800px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.botoesserviços{
+    margin-top: 100px;
 }
 
 botoesserviços{
@@ -285,7 +293,7 @@ footer{
     justify-content: center;
     align-items: center;
     background-color: #022221;
-    height: 250px;
+    height: 300px;
 }
 
 .pagina{
@@ -305,7 +313,6 @@ footer{
     justify-content: center;
     align-self: center;
     background-color: #163E3D;
-    width: fit-content;
 }
 
 
